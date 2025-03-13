@@ -97,7 +97,6 @@ plt.ylabel("Count")
 plt.show()
 
 
-'''
 
 
 
@@ -171,4 +170,3 @@ output_file = "/Users/yuanyusi/Downloads/test_predictions.csv"
 test_df[['PscInspectionId', 'deficiency_code', 'predicted_severity']].to_csv(output_file, index=False)
 print(f"Predictions saved to {output_file}")
 
-'''
